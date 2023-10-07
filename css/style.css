@@ -156,9 +156,9 @@ align-items: center;
 }
 
 .modal__movie-backdrop {
-    width: 100%;
-    margin-bottom: 20px;
-}
+    width: 350px;
+    margin: 10px auto;
+:}
 
 .modal__movie-info {
     margin-left: 20px;
@@ -173,7 +173,7 @@ align-items: center;
 .modal__movie-site {
     color: #ffd80e;
 }
-.modal__movie-title {
+/* .modal__movie-title {
 }
 .modal__movie-year {
 }
@@ -186,4 +186,8 @@ align-items: center;
 }
 
 .modal__movie-overview {
+} */
+.stop_scroll {
+    height: 100%;
+    overflow: hidden;
 }

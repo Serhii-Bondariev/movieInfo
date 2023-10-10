@@ -36,6 +36,7 @@ function showMovies(data) {
     const movieEl = document.createElement("div");
     movieEl.classList.add("movie");
     movieEl.innerHTML = `
+    <div class="movie-card">
             <div class="movie-cover-inner">
                     <img src="${movie.posterUrlPreview}"
                         class="movie-cover"
@@ -54,6 +55,7 @@ function showMovies(data) {
                     
                     <div class="movie-average movie__average--${getClassByRate(movie.rating)}">${movie.rating}</div>`}
                 </div>
+            </div>
                 `;
 
     movieEl.addEventListener("click", () => openModal(movie.filmId))

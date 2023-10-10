@@ -1,3 +1,64 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul,li {
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #f1f5f8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+   display: flex;
+   justify-content: center;
+}
+
+.posts {
+    display: flex;
+    background-color: bisque;
+    border: 1px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.pagination__item {
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.pagination__item--active {
+    font-weight: 800;
+    color: gold;
+} */
+
+
+
+
+
+
+
+/* ====================================================================== */
 * {
     margin: 0px;
     padding: 0px;
@@ -146,7 +207,7 @@ align-items: center;
 
 .modal__card {
     background-color: #ffffff;
-    max-width: 600px;
+    max-width: 6000px;
     padding: 16px;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
     background-color: #1a191f;
@@ -158,13 +219,15 @@ align-items: center;
 .modal__movie-backdrop {
     width: 350px;
     margin: 10px auto;
-:}
+
+}
 
 .modal__movie-info {
     margin-left: 20px;
 }
 
 .modal__button-close {
+    
     padding: 5px;
     margin: 10px;
     align-self: center;
@@ -186,7 +249,7 @@ align-items: center;
 }
 
 .modal__movie-overview {
-} */
+}  */
 .stop_scroll {
     height: 100%;
     overflow: hidden;
